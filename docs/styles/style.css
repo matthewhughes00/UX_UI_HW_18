@@ -1,3 +1,43 @@
+/* HEADINGS */
+h1{
+    font-family: 'Gilda Display', sans-serif;
+    font-size: 123.363px;
+    line-height: 145px;
+}
+h2{
+    font-family: 'Gilda Display', sans-serif; 
+    font-size: 76.2444px;
+    line-height: 90px;                                        
+}
+h3{
+    font-family: 'Gilda Display', sans-serif;
+    font-size: 47.1226px;
+    line-height: 55px;                                     
+}
+h4{
+    font-family: 'Gilda Display', sans-serif;
+    font-size: 29.124px;
+    line-height: 34px;
+}
+h5{
+    font-family: 'Gilda Display', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+h6{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* BODY TEXT */
+p{
+    font-family: 'Amiko', sans-serif;
+}
+h1 + p{
+    font-size: 100;
+    font-weight: 700;
+}
+
 .inlineblock{
     display: inline-block;
     vertical-align: top;
@@ -6,7 +46,7 @@
 
 .logo{
     width: 60%;
-    padding: 10%;
+    padding: 46px;
     text-align: center;
 }
 
@@ -40,3 +80,97 @@ footer{
 .white{
     color: white;
 }
+
+.mySkills{
+    background-color: #DCEFFA;
+}
+
+.titleHeading{
+    padding-left: 46px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'Lovelo', sans-serif;
+    font-size: 90px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skillWidth{
+    width: 33%;
+    padding:40px;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+circle1{
+    height: 15px;
+    width: 15px;
+    background: #717A29;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  
+  circle2{
+    height: 15px;
+    width: 15px;
+    background: #FFFCF5;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  barL{
+    height: 2px;  
+    width: 30px;
+    background: #B98427;
+    display: flex;
+    margin: 8px;
+  }
+  
+  barR{
+    height: 2px;
+    width: 9000px;
+    background: #B98427;
+    display: flex;
+    flex-grow: 1;
+    margin: 8px;
+    align-items: center;
+    }
+  
+  .titleHeading{
+    font-family: 'Lovelo', sans-serif;
+    font-size: 100px;
+    margin: 10px;
+  }
+  
+  .flex{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
