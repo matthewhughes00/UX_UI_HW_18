@@ -560,5 +560,6 @@
         .center1 {
             align-content: center;
             text-align: center;
+            justify-content: space-around;
         }
     }
